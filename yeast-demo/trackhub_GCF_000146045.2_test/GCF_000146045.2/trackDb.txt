@@ -1,0 +1,241 @@
+track CNEs_perfect
+compositeTrack on
+shortLabel Perfect-match CNEs
+longLabel Perfect-match (100% identity) CNEs — species × window
+subGroup1 species Species Seubayanus=Saccharomyces_eubayanus
+subGroup2 thr Threshold t100pc16col=100pc_16col t100pc20col=100pc_20col t100pc30col=100pc_30col t100pc50col=100pc_50col t100pc100col=100pc_100col
+dimensions dimX=thr dimY=species
+sortOrder species=+ thr=+
+hideEmptySubtracks on
+type bigBed 9
+itemRgb on
+visibility hide
+html cnealign_tracks
+priority 1
+
+    track CNE_ScerevisiaeVsSeubayanus_first_100pc_16col
+    parent CNEs_perfect off
+    subGroups species=Seubayanus thr=t100pc16col
+    bigDataUrl ScerevisiaeVsSeubayanus/bb/CNE_ScerevisiaeVsSeubayanus_first_100pc_16col.bb
+    shortLabel CNE_ScerevisiaeVsSeubayanus_first_100pc_16col
+    longLabel CNE_ScerevisiaeVsSeubayanus_first_100pc_16col
+    type bigBed 9
+    itemRgb on
+    maxWindowToDraw 10000000
+    html cnealign_tracks
+
+    track CNE_ScerevisiaeVsSeubayanus_first_100pc_20col
+    parent CNEs_perfect off
+    subGroups species=Seubayanus thr=t100pc20col
+    bigDataUrl ScerevisiaeVsSeubayanus/bb/CNE_ScerevisiaeVsSeubayanus_first_100pc_20col.bb
+    shortLabel CNE_ScerevisiaeVsSeubayanus_first_100pc_20col
+    longLabel CNE_ScerevisiaeVsSeubayanus_first_100pc_20col
+    type bigBed 9
+    itemRgb on
+    maxWindowToDraw 10000000
+    html cnealign_tracks
+
+    track CNE_ScerevisiaeVsSeubayanus_first_100pc_30col
+    parent CNEs_perfect off
+    subGroups species=Seubayanus thr=t100pc30col
+    bigDataUrl ScerevisiaeVsSeubayanus/bb/CNE_ScerevisiaeVsSeubayanus_first_100pc_30col.bb
+    shortLabel CNE_ScerevisiaeVsSeubayanus_first_100pc_30col
+    longLabel CNE_ScerevisiaeVsSeubayanus_first_100pc_30col
+    type bigBed 9
+    itemRgb on
+    maxWindowToDraw 10000000
+    html cnealign_tracks
+
+    track CNE_ScerevisiaeVsSeubayanus_first_100pc_50col
+    parent CNEs_perfect off
+    subGroups species=Seubayanus thr=t100pc50col
+    bigDataUrl ScerevisiaeVsSeubayanus/bb/CNE_ScerevisiaeVsSeubayanus_first_100pc_50col.bb
+    shortLabel CNE_ScerevisiaeVsSeubayanus_first_100pc_50col
+    longLabel CNE_ScerevisiaeVsSeubayanus_first_100pc_50col
+    type bigBed 9
+    itemRgb on
+    maxWindowToDraw 10000000
+    html cnealign_tracks
+
+    track CNE_ScerevisiaeVsSeubayanus_first_100pc_100col
+    parent CNEs_perfect off
+    subGroups species=Seubayanus thr=t100pc100col
+    bigDataUrl ScerevisiaeVsSeubayanus/bb/CNE_ScerevisiaeVsSeubayanus_first_100pc_100col.bb
+    shortLabel CNE_ScerevisiaeVsSeubayanus_first_100pc_100col
+    longLabel CNE_ScerevisiaeVsSeubayanus_first_100pc_100col
+    type bigBed 9
+    itemRgb on
+    maxWindowToDraw 10000000
+    html cnealign_tracks
+
+track CNEs_partial
+compositeTrack on
+shortLabel Partial-match CNEs
+longLabel Partial-match CNEs — species × identity_window
+subGroup1 species Species Seubayanus=Saccharomyces_eubayanus
+subGroup2 thr Threshold t70pc30col=70pc_30col t80pc30col=80pc_30col t90pc30col=90pc_30col t96pc30col=96pc_30col t70pc50col=70pc_50col t80pc50col=80pc_50col t90pc50col=90pc_50col t96pc50col=96pc_50col t98pc50col=98pc_50col
+dimensions dimX=thr dimY=species
+sortOrder species=+ thr=+
+hideEmptySubtracks on
+type bigBed 9
+itemRgb on
+visibility hide
+html cnealign_tracks
+priority 2
+
+    track CNE_ScerevisiaeVsSeubayanus_first_70pc_30col
+    parent CNEs_partial off
+    subGroups species=Seubayanus thr=t70pc30col
+    bigDataUrl ScerevisiaeVsSeubayanus/bb/CNE_ScerevisiaeVsSeubayanus_first_70pc_30col.bb
+    shortLabel CNE_ScerevisiaeVsSeubayanus_first_70pc_30col
+    longLabel CNE_ScerevisiaeVsSeubayanus_first_70pc_30col
+    type bigBed 9
+    itemRgb on
+    maxWindowToDraw 10000000
+    html cnealign_tracks
+
+    track CNE_ScerevisiaeVsSeubayanus_first_80pc_30col
+    parent CNEs_partial off
+    subGroups species=Seubayanus thr=t80pc30col
+    bigDataUrl ScerevisiaeVsSeubayanus/bb/CNE_ScerevisiaeVsSeubayanus_first_80pc_30col.bb
+    shortLabel CNE_ScerevisiaeVsSeubayanus_first_80pc_30col
+    longLabel CNE_ScerevisiaeVsSeubayanus_first_80pc_30col
+    type bigBed 9
+    itemRgb on
+    maxWindowToDraw 10000000
+    html cnealign_tracks
+
+    track CNE_ScerevisiaeVsSeubayanus_first_90pc_30col
+    parent CNEs_partial off
+    subGroups species=Seubayanus thr=t90pc30col
+    bigDataUrl ScerevisiaeVsSeubayanus/bb/CNE_ScerevisiaeVsSeubayanus_first_90pc_30col.bb
+    shortLabel CNE_ScerevisiaeVsSeubayanus_first_90pc_30col
+    longLabel CNE_ScerevisiaeVsSeubayanus_first_90pc_30col
+    type bigBed 9
+    itemRgb on
+    maxWindowToDraw 10000000
+    html cnealign_tracks
+
+    track CNE_ScerevisiaeVsSeubayanus_first_96pc_30col
+    parent CNEs_partial off
+    subGroups species=Seubayanus thr=t96pc30col
+    bigDataUrl ScerevisiaeVsSeubayanus/bb/CNE_ScerevisiaeVsSeubayanus_first_96pc_30col.bb
+    shortLabel CNE_ScerevisiaeVsSeubayanus_first_96pc_30col
+    longLabel CNE_ScerevisiaeVsSeubayanus_first_96pc_30col
+    type bigBed 9
+    itemRgb on
+    maxWindowToDraw 10000000
+    html cnealign_tracks
+
+    track CNE_ScerevisiaeVsSeubayanus_first_70pc_50col
+    parent CNEs_partial off
+    subGroups species=Seubayanus thr=t70pc50col
+    bigDataUrl ScerevisiaeVsSeubayanus/bb/CNE_ScerevisiaeVsSeubayanus_first_70pc_50col.bb
+    shortLabel CNE_ScerevisiaeVsSeubayanus_first_70pc_50col
+    longLabel CNE_ScerevisiaeVsSeubayanus_first_70pc_50col
+    type bigBed 9
+    itemRgb on
+    maxWindowToDraw 10000000
+    html cnealign_tracks
+
+    track CNE_ScerevisiaeVsSeubayanus_first_80pc_50col
+    parent CNEs_partial off
+    subGroups species=Seubayanus thr=t80pc50col
+    bigDataUrl ScerevisiaeVsSeubayanus/bb/CNE_ScerevisiaeVsSeubayanus_first_80pc_50col.bb
+    shortLabel CNE_ScerevisiaeVsSeubayanus_first_80pc_50col
+    longLabel CNE_ScerevisiaeVsSeubayanus_first_80pc_50col
+    type bigBed 9
+    itemRgb on
+    maxWindowToDraw 10000000
+    html cnealign_tracks
+
+    track CNE_ScerevisiaeVsSeubayanus_first_90pc_50col
+    parent CNEs_partial off
+    subGroups species=Seubayanus thr=t90pc50col
+    bigDataUrl ScerevisiaeVsSeubayanus/bb/CNE_ScerevisiaeVsSeubayanus_first_90pc_50col.bb
+    shortLabel CNE_ScerevisiaeVsSeubayanus_first_90pc_50col
+    longLabel CNE_ScerevisiaeVsSeubayanus_first_90pc_50col
+    type bigBed 9
+    itemRgb on
+    maxWindowToDraw 10000000
+    html cnealign_tracks
+
+    track CNE_ScerevisiaeVsSeubayanus_first_96pc_50col
+    parent CNEs_partial off
+    subGroups species=Seubayanus thr=t96pc50col
+    bigDataUrl ScerevisiaeVsSeubayanus/bb/CNE_ScerevisiaeVsSeubayanus_first_96pc_50col.bb
+    shortLabel CNE_ScerevisiaeVsSeubayanus_first_96pc_50col
+    longLabel CNE_ScerevisiaeVsSeubayanus_first_96pc_50col
+    type bigBed 9
+    itemRgb on
+    maxWindowToDraw 10000000
+    html cnealign_tracks
+
+    track CNE_ScerevisiaeVsSeubayanus_first_98pc_50col
+    parent CNEs_partial off
+    subGroups species=Seubayanus thr=t98pc50col
+    bigDataUrl ScerevisiaeVsSeubayanus/bb/CNE_ScerevisiaeVsSeubayanus_first_98pc_50col.bb
+    shortLabel CNE_ScerevisiaeVsSeubayanus_first_98pc_50col
+    longLabel CNE_ScerevisiaeVsSeubayanus_first_98pc_50col
+    type bigBed 9
+    itemRgb on
+    maxWindowToDraw 10000000
+    html cnealign_tracks
+
+track Collinearity
+compositeTrack on
+shortLabel Collinearity
+longLabel CNE collinearity (20_20) — species × view
+subGroup1 species Species Seubayanus=Saccharomyces_eubayanus
+subGroup2 view View rank2=rank2 arcs=arcs bp=per-bp single=single-link
+dimensions dimX=view dimY=species
+sortOrder species=+ view=+
+hideEmptySubtracks on
+type bigBed 9
+visibility hide
+html cnealign_tracks
+priority 4
+
+    track ScerevisiaeVsSeubayanus_20_20_rank2
+    parent Collinearity off
+    subGroups species=Seubayanus view=rank2
+    bigDataUrl ScerevisiaeVsSeubayanus/collinearity/ScerevisiaeVsSeubayanus_20_20_rank2.bb
+    shortLabel ScerevisiaeVsSeubayanus_20_20_rank2
+    longLabel ScerevisiaeVsSeubayanus_20_20_rank2
+    type bigBed 9
+    itemRgb on
+    maxWindowToDraw 10000000
+    html cnealign_tracks
+
+    track ScerevisiaeVsSeubayanus_20_20_arcs
+    parent Collinearity off
+    subGroups species=Seubayanus view=arcs
+    bigDataUrl ScerevisiaeVsSeubayanus/collinearity/ScerevisiaeVsSeubayanus_20_20_arcs.inter.bb
+    shortLabel ScerevisiaeVsSeubayanus_20_20_arcs
+    longLabel ScerevisiaeVsSeubayanus_20_20_arcs
+    type bigInteract
+    maxWindowToDraw 10000000
+    html cnealign_tracks
+
+    track ScerevisiaeVsSeubayanus_20_20_bp
+    parent Collinearity off
+    subGroups species=Seubayanus view=bp
+    bigDataUrl ScerevisiaeVsSeubayanus/collinearity/ScerevisiaeVsSeubayanus_20_20_bp.bw
+    shortLabel ScerevisiaeVsSeubayanus_20_20_bp
+    longLabel ScerevisiaeVsSeubayanus_20_20_bp
+    type bigWig
+    autoScale on
+    maxHeightPixels 96:64:16
+    html cnealign_tracks
+
+    track ScerevisiaeVsSeubayanus_20_20_single
+    parent Collinearity off
+    subGroups species=Seubayanus view=single
+    bigDataUrl ScerevisiaeVsSeubayanus/collinearity/ScerevisiaeVsSeubayanus_20_20_single.bw
+    shortLabel ScerevisiaeVsSeubayanus_20_20_single
+    longLabel ScerevisiaeVsSeubayanus_20_20_single
+    type bigWig
+    autoScale on
+    maxHeightPixels 96:64:16
+    html cnealign_tracks
+

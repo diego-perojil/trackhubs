@@ -1,0 +1,2 @@
+genome GCF_000146045.2
+trackDb GCF_000146045.2/trackDb.txt
