@@ -1,0 +1,6 @@
+hub trackhub_GCF_000146045.2_test
+shortLabel trackhub_GCF_000146045.2_test
+longLabel trackhub_GCF_000146045.2_test
+genomesFile genomes.txt
+descriptionUrl hubDescription.html
+email d.perojil@lms.mrc.ac.uk
